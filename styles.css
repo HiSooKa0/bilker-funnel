@@ -1,0 +1,263 @@
+/* Design */
+h1 , h2 , h3{
+ font-family: 'Scheherazade New', serif;
+}
+body{
+  text-align: center;
+
+}
+p{
+  font-family: 'Noto Naskh Arabic', serif;
+}
+section {
+  overflow: hidden;
+}
+.logo{
+  width: 100px;
+}
+#header .container-fluid {
+  padding: 0.1% 5%;
+}
+.attract{
+  margin-top: 20px;
+  margin-bottom: 40px;
+  padding: 2% 4% 1%;
+   width: 80%;
+  color: white;
+  border: solid white;
+}
+
+.notice{
+  padding: 30px 50px 10px;
+}
+.attract p{
+  line-height: 2em;
+  font-size: 25px;
+}
+.nav-item{
+  margin: 20px;
+}
+.blue-section{
+  background-color: #000075;
+}
+.black-section {
+  background-color: #000000;
+
+}
+.red-section {
+  background-color: #DD0000;
+}
+.yellow-section {
+  background-color: #FFCE00;
+}
+.white-section{
+  background-color: #EEEEEE;
+  color: black;
+}
+.default-code{
+  padding: 3% 5%;
+
+}
+.default-code h1{
+  font-weight: bold;
+  color: white;
+}
+.container {
+  max-width: 1320px;
+}
+
+
+.section-bg {
+  background: #f5f8fd;
+}
+
+.section-header p {
+  text-align: center;
+  margin: auto;
+  font-size: 20px;
+  padding-bottom: 60px;
+  color: #f5f8fd;
+  width: 50%;
+}
+
+
+#services .box {
+  padding: 30px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px ;
+  background: white;
+  margin: 0 10px 40px 10px;
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+  transition: all 0.3s ease-in-out;
+  text-align: center;
+}
+
+#services .box:hover {
+  transform: scale(1.1);
+}
+
+#services .icon {
+  margin: 0 auto 15px auto;
+  padding-top: 12px;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+}
+
+#services .icon .service-icon {
+  font-size: 36px;
+  line-height: 1;
+}
+.navbar-light .navbar-nav .nav-link{
+  color: black;
+  font-size: 20px;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+  color: #DD0000;
+}
+
+
+#services .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 25px;
+}
+
+#services .title a {
+  color: #000000;
+  text-decoration: none;
+}
+
+#services .box:hover .title a {
+  color: #D10000;
+}
+#services .box:hover .title a:hover {
+  text-decoration: none;
+}
+
+#services .description {
+  font-size: 24px;
+  line-height: 28px;
+  margin-bottom: 0;
+
+}
+
+.main{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.adv-img {
+  width: 100%;
+  height: auto;
+  vertical-align: middle;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.cards_item {
+  display: flex;
+  padding: 2rem 1rem;
+}
+
+@media (min-width: 40rem) {
+  .cards_item {
+    width: 50%;
+  }
+}
+
+@media (min-width: 56rem) {
+  .cards_item {
+    width: 33.3%;
+  }
+}
+
+.card {
+  background-color: white;
+  border-radius: 0.5rem;
+  box-shadow: 0 20px 40px -14px grey;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+.card_content {
+  background: white;
+}
+
+.card_text {
+  color: #000;
+  font-size: 27px;
+  line-height: 1.5;
+  font-weight: 400;
+  padding: 5px 10px;
+  margin-top: 20px;
+}
+
+
+  #Why-bilker .row{
+    padding:  25px;
+  }
+  #Why-bilker h1, #waiting h1{
+    color: black;
+  }
+
+  .contact-form{
+    max-width: 1000px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 20px;
+    border:solid;
+  }
+
+  input[type=text] ,input[type=email] , select{
+    font-size: 20px;
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-sizing: border-box;
+  }
+  input[type=submit]{
+    width: 90%;
+    background-color:#00D100;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0 ;
+    border: none;
+    border-radius: 10px;
+  }
+
+  .contact-form h3{
+    font-weight: 100;
+    text-align: center;
+    padding-bottom: 20px;
+    font-family: 'Scheherazade New', serif;
+  }
+@media (max-width: 991px) {
+  .section-header p {
+    width: 100%;
+  }
+  .cards_item {
+    width: 80%;
+    margin: auto;
+  }
+  #services .description {
+    font-size: 28px;
+    line-height: 1.5;
+    margin-bottom: 2px;
+
+  }
+
+
+}
